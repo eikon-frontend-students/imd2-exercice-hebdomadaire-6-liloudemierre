@@ -12,3 +12,37 @@ img,
 video {
   display: block;
 }
+
+body {
+  background: #eee;
+  font-family: Roboto;
+}
+.rail {
+  display: flex;
+  width: 200px;
+  height: 100vh;
+  padding: 50px 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  box-shadow: 2px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.link-text {
+  color: #e5807c;
+}
+.link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  color: #754ff6;
+}
